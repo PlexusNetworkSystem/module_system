@@ -13,20 +13,25 @@ cd /home/$USER
 echo done
 ```
 
-# Creating the modules
-first create a diractory and set the name module.<module_name_what_you_want>
-└──ex: ```mkdir /home/$USER/module.alfa```
+# Creating modules
+first create a diractory and set the name module.<module_name_what_you_want></br>
+└──ex: ```mkdir /home/$USER/module.alfa```</br>
+after createition the module, create module identify file.</br>
+└──ex: ```touch /home/$USER/module.alfa/module.alfa.name```</br>
+Now we need the commands, for this, create diractory with name "commands" in module</br>
+└──ex: ```mkdir /home/$USER/module.alfa/commands```</br>
+&emsp;└──desc: Module commands is need a be file. </br>
+&emsp;└──ex: hello world.sh</br>
+&emsp;&ensp;&ensp;&ensp;└──hello world.cpp</br>
+&emsp;&ensp;&ensp;&ensp;└──hello world.c </br>
+&emsp;&ensp;&ensp;&ensp;└──hello world.cs</br>
+&emsp;&ensp;&ensp;&ensp;└──hello world.py</br>
+</br>
+All done,Now you are have a module</br>
 
-after createition the module, create module identify file.
-└──ex: ```touch /home/$USER/module.alfa/module.alfa.name```
-
-Now we need the commands, for this create diractory with name "commands" in module
-└──ex: ```mkdir /home/$USER/module.alfa/commands```
-&emsp;└──desc: Module commands is need a be file. 
-&emsp;└──ex: hello world.sh
-&emsp;&ensp;hello world.cpp
-&emsp;&ensp;hello world.c 
-&emsp;&ensp;hello world.cs
-&emsp;&ensp;hello world.py
-
-All done you have a module
+# Usage
+Type this commands to a terminal
+```
+cd /opt/Plexus.Network.Apps/module_system
+bash main.system/main.sh
+```
