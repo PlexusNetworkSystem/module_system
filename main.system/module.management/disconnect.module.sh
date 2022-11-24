@@ -1,4 +1,4 @@
-source /home/abra/Templates/module_system/main.system/vars.main.sh
+source ../../vars.main.sh
 [[ $1 = "-help" ]] && echo "Usage: Usage" && exit
 read -e -p "$(echo -ne "Type the module name: ")" read_module_name
     if [[ $(cat "$main_system_path/module.management/connected.module.list") =~ "module.$read_module_name" ]];then

@@ -1,4 +1,4 @@
-source /home/abra/Templates/module_system/main.system/vars.main.sh
+source ../../vars.main.sh
 read -e -p "$(echo -ne "Type the module name: ")" read_module_name
 modules="$(ls $module_path)"
 modules=($modules)

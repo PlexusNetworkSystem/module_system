@@ -1,4 +1,4 @@
-source /home/abra/Templates/module_system/main.system/vars.main.sh
+source ../../vars.main.sh
 modules="$(ls $module_path)"
 modules=($modules)
 #module connection control.

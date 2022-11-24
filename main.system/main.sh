@@ -1,8 +1,8 @@
-source /home/abra/Templates/module_system/main.system/vars.main.sh
+source vars.main.sh
 while read -e -p "$(echo -ne "Type the command: ")" command; do
 #module add-remove-connect-deconnect
 if [[ $command = "help" ]]; then
-    echo -e "Commands:\n\tadd module\n\tremove module\n\tconnect module\n\tdisconnect module\n\tlistmodule"
+    echo -e "Commands:\n\tadd module\n\tremove module\n\tconnect module\n\tdisconnect module\n\tlist module"
 :
 elif [[ $command = "add module" ]]; then
     bash $main_system_path/module.management/add.module.sh
