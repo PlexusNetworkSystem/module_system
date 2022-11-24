@@ -1,5 +1,5 @@
 # module_system
-It is an application developing style, That is work likely space station modules.
+This is an application development style, that is, its working principle is similar to space station modules.
 # :arrow_double_down: Installation :arrow_double_down:
 ```
 wget https://github.com/PlexusNetworkSystem/module_system/archive/refs/heads/main.zip
