@@ -1,0 +1,1 @@
+print("Günaydın insan kişisi")
