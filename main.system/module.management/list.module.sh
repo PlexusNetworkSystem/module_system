@@ -1,4 +1,4 @@
-source ../../vars.main.sh
+source /opt/Plexus.Network.Apps/module_system/main.system/vars.main.sh
 modules="$(ls $module_path)"
 modules=($modules)
 #module connection control.

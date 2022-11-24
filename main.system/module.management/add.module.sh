@@ -1,4 +1,4 @@
-source ../../vars.main.sh
+source /opt/Plexus.Network.Apps/module_system/main.system/vars.main.sh
 [[ $1 = "-help" ]] && echo "Usage: Usage" && exit
 read -e -p "$(echo -ne "Type the module path: ")" read_module_path
     if [[ -d $read_module_path ]];then
