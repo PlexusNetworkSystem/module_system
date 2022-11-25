@@ -5,10 +5,12 @@ This is an application development style, its working principle is similar to sp
 wget https://github.com/PlexusNetworkSystem/module_system/archive/refs/heads/main.zip
 sudo mkdir /opt/Plexus.Network.Apps/
 sudo chmod 777 /opt/Plexus.Network.Apps/
-mv main.zip /opt/Plexus.Network.Apps/
-cd /opt/Plexus.Network.Apps/
-unzip main.zip /opt/Plexus.Network.Apps/
+unzip main.zip 
+cd module_system-main/
+mv * /opt/Plexus.Network.Apps/
+cd ..
 sudo rm -f main.zip
+sudo rm -rf module_system-main
 cd /home/$USER
 echo done
 ```
