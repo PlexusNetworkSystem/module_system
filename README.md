@@ -39,6 +39,7 @@ All done, Now you are have a module</br>
 Type this commands to a terminal
 ```
 cd /opt/Plexus.Network.Apps/module_system
+echo "help" | bash main.system/main.sh
 bash main.system/main.sh
 ```
 # Tested on This platform(s)
