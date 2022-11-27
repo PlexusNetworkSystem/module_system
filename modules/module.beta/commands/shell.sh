@@ -1,1 +1,2 @@
-echo "hello world2"
+echo -e "Opening BASH..."
+bash

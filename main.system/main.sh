@@ -1,4 +1,4 @@
-source vars.main.sh
+source /opt/Plexus.Network.Apps/module_system/main.system/vars.main.sh
 while read -e -p "$(echo -ne "Type the command: ")" command; do
 #module add-remove-connect-deconnect
 if [[ $command = "help" ]]; then
