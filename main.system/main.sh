@@ -1,5 +1,13 @@
 source /opt/Plexus.Network.Apps/module_system/main.system/vars.main.sh
 while read -e -p "$(echo -ne "Type the command: ")" command; do
+#vars
+    command="$lower_data"
+    command_module_param="${command#*: *}"
+    command_module="${lower_data/": $command_module_param"}"
+    [[ -f /home/$USER/development.mod ]] &&\
+    echo -e "Module: $command_module" &&\
+    echo -e "Param: $command_module_param"
+
 #module add-remove-connect-deconnect
 if [[ $command = "help" ]]; then
     echo -e "${cyan}Commands:\n\tadd module\n\tremove module\n\tconnect module\n\tdisconnect module\n\tlist module\n\tclear\n\texit${tp}"
